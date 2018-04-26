@@ -41,8 +41,6 @@ class SQLserver {
 		      //String     url = "jdbc:postgresql://127.0.0.1/suh"; 
 		      //Connection con = DriverManager.getConnection(url, "postgres", ""); 
 		      Properties props = new Properties();
-		      props.setProperty("user","yuchen.zhou");
-		      props.setProperty("password","50440669");
 		      props.setProperty("sslfactory", "org.postgresql.ssl.NonValidatingFactory");
 		      props.setProperty("ssl","true");   //for ssl
 		      ct = DriverManager.getConnection(url, props);
