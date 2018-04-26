@@ -1,5 +1,5 @@
 # astate.chat
-Java Chat application
+Java Chat application with open group chat as well as peer to peer
 
 -This project was created using Java in Eclipse.  
 
